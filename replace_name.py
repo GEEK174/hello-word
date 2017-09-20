@@ -2,10 +2,10 @@
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-#import matplotlib.pyplot as plt;plt.rcdefaults()
+import matplotlib.pyplot as plt;plt.rcdefaults()
 from PIL import Image, ImageEnhance, ImageOps, ImageFile
 import os
-#import numpy as np
+import numpy as np
 import logging
 
 root_folder = r'D:\GK\python\test'
